@@ -1,5 +1,7 @@
-puts "Insira texto"
+texto = "ruby rocks!"
+outro_texto = texto
 
-nome = gets.chomp
+texto.upcase!
 
-puts nome
+puts texto
+puts outro_texto
